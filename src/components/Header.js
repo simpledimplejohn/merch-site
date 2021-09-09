@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-function Header() {
+function Header(){
   return (
-    <React.Fragment>
-      <h1>Art Against the World</h1>
-    </React.Fragment>
-  )
+    <h1>Merch Site</h1>
+  );
 }
 
 export default Header;

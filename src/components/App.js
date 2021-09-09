@@ -1,10 +1,12 @@
-import React from 'react';
-import Header from './Header';
+import React from "react";
+import Header from "./Header";
+import ProductControl from "./ProductControl";
 
-function App() {
-  return (
+function App(){
+  return ( 
     <React.Fragment>
       <Header />
+      <ProductControl />
     </React.Fragment>
   );
 }
